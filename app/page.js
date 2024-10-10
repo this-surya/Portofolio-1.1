@@ -1,10 +1,10 @@
 import Image from "next/image";
+import picture from './mypic.png';
 
 export default function Home() {
   return (
     <div>
-      <h1>hello wordl</h1>   
-      <img src="mypic" />  
+      <Image className="grayscale" src={picture} alt="my Picture"/>  
     </div>
   );
 }
